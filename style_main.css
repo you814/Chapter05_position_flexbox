@@ -1,0 +1,78 @@
+.patata{
+    position: fixed;
+    top: 100px;
+    top: 850px;
+    left: 1780px;
+}
+
+body{
+    background-color: rgb(54, 52, 52);
+    font-family: 'Sunflower', sans-serif;
+}
+
+  .body{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  .main-text{
+    border: 1px solid rgb(65, 66, 65);
+    color: rgb(76, 114, 205);
+    background-color: rgb(65, 66, 65);
+    width: 680px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    top: 270px;
+  }
+
+  .text{
+    top: 250px;
+    left: 250px;
+    font-size: 25px;
+    position: absolute;
+    left: 860px;
+    top: 350px;
+  }
+
+  .box{
+    border: 1px solid rgb(94, 114, 119);
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(94, 114, 119);
+    margin: 10px 0 10px 0;
+    border-radius: 5px;
+  }
+
+  a{
+    text-decoration: none;
+    color: rgb(114, 225, 240);
+  }
+  
+  a:hover{
+    color: red;
+  }
+  
+  button{
+    background-color: gray;
+    color: white;
+    margin: 30px;
+    border: 1px gray solid;
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+  }
+  
+  .bt {
+    position: absolute;
+    top: -1px;
+    left: 130px;
+  }
+
+  .patata{
+    display: flex;
+    justify-content: flex-end;
+  }

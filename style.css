@@ -1,0 +1,123 @@
+
+body{
+  font-family: 'Sunflower', sans-serif;
+}
+
+.mom{
+  display: flex;
+  justify-content: space-between;
+}
+
+.q1-main-b{
+  display: flex;
+}
+
+
+.box1{
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+  color: red;
+}
+.box2{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: red;
+}
+.box3{
+  width: 100px;
+  height: 100px;
+  background-color: greenyellow;
+  color: red;
+}
+
+.q2-main-b{
+  display: flex;
+  flex-direction: column;
+}
+
+.q2-b2{
+  align-self: center;
+}
+
+.q2-b3{
+  align-self: end;
+}
+
+
+.q3-main-b{
+  display: flex;
+  justify-content: center;
+}
+
+.q3-b1{
+  width: 200px;
+  height: 200px;
+  background-color: skyblue;
+  color: red;
+  position: relative;
+}
+
+.q3-b2{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+  color: red;
+  left: 50px;
+  top: 50px;
+}
+
+
+.q4-b2{
+  position: relative;
+  left: 50px;
+  top: -50px;
+}
+
+
+.q5-b1{
+  width: 600px;
+  height: 300px;
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.q5-b2{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.q5-b3{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.bt {
+  border: 1px black solid;
+  background-color: antiquewhite;
+  width: 100px;
+  height: 30px;
+  margin: 10px 0 0 0 ;
+  border-radius: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: rebeccapurple;
+}
